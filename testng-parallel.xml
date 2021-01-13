@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--For parallel methods-level test-->
+<!--<suite name="Parallel Test Suite" parallel="methods" thread-count="2">-->
+<!--    <test name="Test-method test" group-by-instances="true">-->
+<!--        <classes>-->
+<!--            <class name="ParallelMethodTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!--For parallel classes-level test-->
+<!--<suite name="Parallel Test Suite" parallel="classes" thread-count="2">-->
+<!--    <test name="Test-class test">-->
+<!--        <classes>-->
+<!--            <class name="ParallelClassTestOne" />-->
+<!--            <class name="ParallelClassTestTwo" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!--For parallel test-level test-->
+<suite name="Parallel Test Suite" parallel="tests" thread-count="2">
+    <test name="Test-class test 1">
+        <parameter name="test-name" value="test-method-1" />
+        <classes>
+            <class name="ParallelSuiteTest" />
+        </classes>
+    </test>
+    <test name="Test-class test 2">
+        <parameter name="test-name" value="test-method-2" />
+        <classes>
+            <class name="ParallelSuiteTest" />
+        </classes>
+    </test>
+</suite>

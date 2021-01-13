@@ -1,0 +1,16 @@
+SameClassDataProvider.class
+ParameterTest.class
+ParallelSuiteTest.class
+ExceptionTestDemo.class
+DependentTest.class
+ParallelClassTestOne.class
+ParallelMethodTest.class
+TimeoutSuite.class
+RgxGroupTest.class
+MultiGroupExample.class
+ParallelClassTestTwo.class
+DisableTestDemo.class
+GroupTestExample.class
+DifferentClassDataProviderTest.class
+DifferentClassDataProviderDP.class
+MyFirstTest.class
